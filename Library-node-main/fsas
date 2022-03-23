@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <label for="origem">Origem</label>
+        <select name="origem" id="origem">
+          <option value="011">011</option>
+          <option value="016">016</option>
+          <option value="017">017</option>
+          <option value="018">018</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="destino">Destino</label>
+        <select name="Destino" id="Destino">
+          <option value="011">011</option>
+          <option value="016">016</option>
+          <option value="017">017</option>
+          <option value="018">018</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="plano">Plano</label>
+        <select name="Plano" id="Plano">
+          <option value="FaleMais 30">FaleMais 30</option>
+          <option value="FaleMais 60">FaleMais 60</option>
+          <option value="FaleMais 120">FaleMais 120</option>
+        </select>
+        <br><br>
+        <input  type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
